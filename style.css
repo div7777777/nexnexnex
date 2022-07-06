@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    height: 915px;
+    width: auto;
+    padding: 14px, 17px;
+    position: relative;
+    border: 30px solid;
+    background: linear-gradient(180deg, black, whitesmoke);
+    border-image:
+    linear-gradient(
+          #FFFF00, 
+           #87CEEB,
+           #ff512f,
+           #dd2476,
+           #1c64ff) 1;
+    animation: rotate
+     2.5s
+     ease-in infinite;
+}
+@keyframes rotate {
+    50%{
+        border-image: 
+        linear-gradient(
+            360deg,
+            #FFFF00, 
+            #87CEEB,
+            #ff512f,
+            #dd2476,
+            #1c64ff) 1;
+    
+    animation: rotate
+    2.5s
+    ease-in infinite;
+ }
+}
+
+/*profil*/
+.profil{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 150px;
+}
+.prof{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(180deg, black, white);
+    border-radius: 50%;
+    border: 4px solid white;
+    padding: 7px;
+
+}
+/* title */
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: row;
+}
+.s{
+    color: white;
+    background: red;
+}
+.o{
+    color: white;
+    background: blue;
+}
+.c{
+    color: white;
+    background: yellow;
+}
+.i{
+    color: white;
+    background: teal;
+}
+.l{
+    color: white;
+    background: skyblue;
+}
+.ll{
+    color: white;
+    background: chartreuse;
+}
+.ii{
+    color: white;
+    background: violet;
+}
+.n{
+    color: white;
+    background: deeppink;
+}
+.k{
+    color: white;
+    background: forestgreen;
+}
+._{
+    opacity: 0;
+}
+.symbole{
+    border-radius: 50%;
+    animation: spin 12s infinite linear;
+}
+@keyframes spin{
+    12%{
+        background: red;
+    }
+    24%{
+        background: blue;
+    }
+    34%{
+        background: yellow;
+    }
+    44%{
+        background: black;
+    }
+    54%{
+        background: chartreuse;
+    }
+    64%{
+        background: violet;
+    }
+    74%{
+        background: deeppink;
+    }
+    94%{
+        background: forestgreen;
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+/* cont+adr */
+.contacte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+.tel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.maps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.at{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    background: linear-gradient(90deg, black, whitesmoke);
+    border-radius: 50%;
+    border: 4px solid whitesmoke;
+
+}
+.bm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    background: linear-gradient(90deg, black, whitesmoke);
+    border-radius: 50%;
+    border: 4px solid whitesmoke;
+}
+.cm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    background: linear-gradient(90deg, black, whitesmoke);
+    border-radius: 50%;
+    border: 4px solid whitesmoke;
+}
+/* social */
+.contenair{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(180deg, 
+    #FFFF00, 
+    #87CEEB,
+    #ff512f,
+    #dd2476,
+    #1c64ff);
+    border-radius: 50px;
+    color: ch;
+    border: 4px solid white;
+    animation: 2.5s infinite neon;
+}
+@keyframes neon{
+    50%{
+        background: linear-gradient(180deg,
+        #1c64ff,
+        #dd2476,
+        #7fff00,
+        #87ceeb,
+        #ffff00);
+    }
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95px;
+    width: 100px;
+    
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    
+
+}
+.h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Cinzel Decorative', cursive;
+    }
+
+
